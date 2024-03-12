@@ -1,0 +1,9 @@
+[package]
+name = "naive-rsa"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+num-bigint = {version = "0.4", features = ["rand", "serde"]}
+num-traits = "0.2.17"
+rand = "0.8"
